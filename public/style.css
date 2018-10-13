@@ -1,0 +1,43 @@
+/* styles */
+/* called by your view template */
+
+body{
+ background-color: #B3DEC1; 
+}
+
+h3{
+ text-align: center; 
+}
+
+.container{
+  margin-top: 25px; 
+}
+
+#reg-form{
+ background-color: #FFD166; 
+}
+
+#log-form{
+  background-color: snow;
+}
+
+#search-form{
+ background-color: snow; 
+}
+
+#reg-form, #search-form, #log-form{
+  padding: 5px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #333;
+  margin: 5px;
+}
+
+#search-form form{
+  text-align:center;
+}
+
+#search-form form .form-group{
+  margin-left: 10px;
+  margin-right: 10px;
+}
